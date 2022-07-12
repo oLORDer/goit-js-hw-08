@@ -31,6 +31,6 @@ const onFormSubmit = (e) => {
 }
 
 formEl.addEventListener('input', throttle(onFormChange, 500));
-formEl.addEventListener('submit', throttle(onFormSubmit, 500));
+formEl.addEventListener('submit', onFormSubmit);
 
 checkLS();
