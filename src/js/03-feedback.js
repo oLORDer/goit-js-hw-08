@@ -25,7 +25,6 @@ const onFormChange = (e) => {
 const onFormSubmit = (e) => {
   e.preventDefault();
 
-  console.log(userData);
   localStorage.removeItem(LS_KEY);
   e.currentTarget.reset();
 }
